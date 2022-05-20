@@ -1,16 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Rajdhani:wght@400&display=swap');
-.jumbotron {
-  padding-top: 7rem;
-  background-color: #ffffff;
+/* var */
+:root {
+  --backgroundColor : #ffffff;
+  --primaryColor : #2899f9;
 }
-#projects {
-  background-color: #e2edff;
-}
-section {
-  scroll-margin-top: 200px;
+/* navbar */
+.colorSection {
+  color: var(--primaryColor);
 }
 .navbarMenuTextClass {
-  font-family: 'Rajdhani', sans-serif;
   color: black;
   letter-spacing: 2px;
+}
+/* jumbotron */
+.jumbotron {
+  padding-top: 7rem;
+  background-color: var(--backgroundColor);
+}
+/* project */
+#projects {
+  background-color: var(--backgroundColor);
+}
+/* section */
+section {
+  scroll-margin-top: 200px;
 }
